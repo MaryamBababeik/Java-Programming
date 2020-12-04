@@ -2,33 +2,35 @@ package com.usc.java;
 
 import java.util.Scanner;
 
+import static java.lang.String.*;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
 
-        int  array[];
-        int   n;
-        int count=0;
-        System.out.print("Enter n : ");
-        Scanner intput = new Scanner(System.in);
-        n = intput.nextInt();
-         for (int i=0 ; i<array.length ; i++) {
-             System.out.println("Enter number " +(i) );
-             array[i] = intput.nextInt();
-                }
-        int  x;
-        System.out.println("Enter your Number for Search in array:");
-         x = intput.nextInt();
-         for (int j=0 ; j<n ; j++) {
-             if (array[j] == x) {
-                 System.out.println(" True ");
-                 count ++;
-             }
-                 else
-                 System.out.println(" False ");
-            }
-             System.out.println("reapeted " +count+ " times");
-         }
+        int n;
+        int i = 0;
+        int count = 0;
+        String str[] = new String[10];
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter String of numbers :");
+        str[i] = String.valueOf(input.nextInt());
+        System.out.println(str[i]);
+        System.out.println("Enter a number :");
+        n = input.nextInt();
+        System.out.println(n);
+
+        for (int j = 0; j <= i; j++) {
+            if (str[i] == n) {
+                System.out.println("True");
+                i++;
+                count++;
+            } else
+                System.out.println(" False ");
+            System.out.println("reapeted " + count + " times");
+
+        }
     }
+}

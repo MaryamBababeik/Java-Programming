@@ -1,10 +1,11 @@
 package com.usc.java;
 
 public interface MyInteger {
-    void isEven(int);
-    void isOdd(int);
-    void isPOsetive(int);
-    void isNegstive(int);
-    void inZero(int);
+    void isEven(int n);
+    void isOdd(int n);
+    void isPosetive(int n);
+    void isNegative(int n);
+    void isZero(int n);
+
 
 }
