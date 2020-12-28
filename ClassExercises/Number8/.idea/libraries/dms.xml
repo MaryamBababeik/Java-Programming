@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dms">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../oracleLibrary/dms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../oracleLibrary/ojdbc7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../oracleLibrary/ojdbc7dms.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
